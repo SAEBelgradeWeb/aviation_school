@@ -1,0 +1,84 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+div {
+	/*border: 1px solid red;*/
+}
+
+.wrapper {
+	width: 940px;
+	margin: 0 auto;
+}
+
+
+/* HEADER */
+#header {
+	height: 147px;
+	background-color: #274f75;
+}
+
+#logo {
+	float: left;
+	width: 72%;
+}
+
+#logo h1 {
+	font-size: 64px;
+	color: white;
+	margin: 0;
+	line-height: 147px;
+
+}
+
+#adresa {
+	float: right;
+	width: 23%;
+	margin-top: 30px;
+}
+
+#adresa p {
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	color: white;
+	opacity: 0.6;
+	text-align: right;
+}
+
+/* NAVIGACIJA */
+#nav {
+	height: 38px;
+}
+/* HERO */
+#hero {
+	height: 455px;
+}
+
+/* CONTENT */
+#content {
+	height: 690px;
+}
+#main {
+	width: 66%;
+	float: left;
+}
+#sidebar {
+	width: 33%;
+	float: right;
+}
+
+/* FOOTER */
+#footer {
+	height: 108px;
+}
+
+#footer_levo {
+	width: 49%;
+	float: left;
+}
+
+#footer_desno {
+	width: 49%;
+	float: right;
+}
