@@ -12,6 +12,11 @@ div {
 	margin: 0 auto;
 }
 
+.wrapper2 {
+	width: 924px;
+	margin: 0 auto;
+}
+
 
 /* HEADER */
 #header {
@@ -49,20 +54,131 @@ div {
 /* NAVIGACIJA */
 #nav {
 	height: 38px;
-}
-/* HERO */
-#hero {
-	height: 455px;
+	background-color: #82bc0e;
+	border-bottom: 1px solid #c80808;
+	background-image: url(../images/bg_nav.jpg);
+	background-repeat: repeat-x;
 }
 
-/* CONTENT */
-#content {
-	height: 690px;
+#nav ul {
+	margin: 0;
+	padding: 0;
+
 }
+
+#nav ul li {
+	list-style-type: none;
+	float: left;
+	width: 14%;
+	padding: 0 1px;
+	text-align: center;
+}
+
+#nav ul li a {
+	text-decoration: none;	
+	display: block;
+	font-family: Arial, sans-serif;
+	font-size: 15px;
+	color: #28485e;
+	line-height: 38px;
+}
+
+#nav ul li a:hover {
+	font-weight: bold;
+	background-color: #fff;
+	border-bottom: 6px solid #c80808;
+	background-image: url(../images/bg_nav_hover.jpg);
+	background-repeat: repeat-x;
+
+}
+
+/* HERO */
+#content {
+	height: 1145px;
+	background-image:url(../images/content_bg.jpg);
+	background-repeat: repeat-x;
+}
+
+.outer {
+	background-image:url(../images/hero_bg.jpg);
+	background-repeat: no-repeat;
+	width: 1322px;
+	height: 100%;
+	margin: 0 auto;
+
+}
+.hero {
+	height: 355px;
+	padding-top: 100px;
+}
+
+.hero h1 {
+	font-size: 58px;
+	font-weight: bold;
+	color: #295071;
+	margin: 0;
+	width: 450px;
+}
+
+.hero h2 {
+	font-size: 25px;
+	font-family: Arial, sans-serif;
+	color: #295071;
+	font-weight: normal;
+	width: 360px;
+
+}
+
+
+/* CONTENT */
+.content {
+	height: 690px;
+	background-color: #fff;
+	background-image: url(../images/main_bg.jpg);
+	background-repeat: no-repeat;
+	padding-top:35px;
+	padding-left: 30px;
+
+}
+.content h1 {
+	font-size: 28px;
+	font-weight: normal;
+	margin: 0;
+	margin-bottom: 25px;
+	font-family: Arial, sans-serif;
+	color: #3f3f3f;
+}
+
+.content h1 span {
+	font-weight: bold;
+	color: #c80808;
+}
+ 
+.content #main img {
+	border: 1px solid #c80808;
+	padding: 5px;
+	float: left;
+	margin-right: 20px;
+
+}
+
+#main p {
+	font-family: Arial, sans-serif;
+	color: #3d3d3d;
+	font-size: 14px;
+	margin-top: 0;
+	text-align: justify;
+	letter-spacing: 1px;
+	line-height: 170%;
+	padding-right: 25px;
+	padding-bottom: 10px;
+}
+
 #main {
 	width: 66%;
 	float: left;
 }
+
 #sidebar {
 	width: 33%;
 	float: right;
