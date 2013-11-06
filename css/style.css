@@ -251,6 +251,22 @@ div {
 	height: 108px;
 	background-color: #274f75;
 	border-top: 1px solid #c80808;
+	color: #6a86a0;
+	font-family: Arial, serif;
+	font-size: 12px;
+	padding-top: 36px;
+	line-height: 170%;
+}
+
+#footer a {
+
+	color: #6a86a0;
+	text-decoration: none;
+
+}
+
+#footer a:hover {
+	color: white;
 }
 
 #footer_levo {
@@ -258,7 +274,13 @@ div {
 	float: left;
 }
 
+#footer_levo img {
+	margin-right: 16px;
+}
+
 #footer_desno {
 	width: 49%;
 	float: right;
+	text-align: right;
 }
+
